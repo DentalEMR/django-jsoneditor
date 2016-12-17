@@ -1,8 +1,5 @@
 from django.forms.widgets import Textarea
-try:
-    from django.forms.util import flatatt
-except ImportError:
-    from django.forms.utils import flatatt
+from django.forms.utils import flatatt
 
 from django.utils.safestring import mark_safe
 
